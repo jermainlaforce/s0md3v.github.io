@@ -34,9 +34,9 @@ body {
    ========================================================================== */
 
 $base-color                      : #2f3640;
-$body-color                      : #2f3640;
+$body-color                      : #3d3d3d;
 $text-color                      : #ffffff;
-$comp-color                      : #2f3640;
+$comp-color                      : complement(#222);
 $border-color                    : lighten($base-color,60);
 $link-color                      : rgba(#222,0.8);
 
