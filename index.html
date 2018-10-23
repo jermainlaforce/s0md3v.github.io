@@ -27,12 +27,10 @@ image:
       </span><!-- /.entry-reading-time -->
       {% endif %}
     </div><!-- /.entry-meta -->
-    {% if post.excerpt != post.content %}
-        <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
-    {% endif %}
   </header>
   <div class="entry-content">
-    {{ post.content }}
+    {{ post.excerpt }}
+    <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
 {% endfor %}
