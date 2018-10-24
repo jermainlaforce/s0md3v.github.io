@@ -58,7 +58,7 @@ You know that the smallest* unit of matter is an atom right? Take one electron o
 ## A new start
 My condition was like a injured lion *coughs* maybe that’s too much, a cheetah maybe? I just wanted to take off that weight off my chest and there was just one way to do it, learning XSS and python.
 
-How I learned Python?
+#### How I learned Python?
 
 The best way to learn a programming language is to code in it. No book, youtube niggas or $99 courses can teach you programming, just fucking start writing code. Of course you need resources to learn from so here’s what I did to learn python
 
@@ -67,7 +67,8 @@ This book is really good for getting started with python.
 Codecademy [Online interactive course]. It gave me a glimpse of real world programming problems.
 By modifying other’s tools (without putting them on github this time :p ). This part helped me the most, I learned a loooooot. I learned about different libraries and the way developers solved a particular problem and what not.
 By writing my own tools from the scratch. Please don’t look at the source code of ReconDog because it was my first program that I wrote from the scratch
-How I learned XSS?
+
+### How I learned XSS?
 
 Random Blogs (10%)
 brutelogic.com.br (15%)
@@ -89,7 +90,7 @@ I do security research. A good example of my work is Entropy, a WAF core prototy
 
 I am not a bug hunter but I have helped a lot of organizations to fix flaws in their websites without asking for a t-shirt :wink:
 
-I have written 100+ articles on this blog i.e.teamultimate.in.
+I wrote 100+ articles on teamultimate.in (It's down, thanks to my "dear" team mates)
 
 ## Tips & Resources
 Here are some pro *coughs* noob tips from my side:
