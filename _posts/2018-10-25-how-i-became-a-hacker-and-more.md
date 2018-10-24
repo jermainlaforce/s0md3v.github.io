@@ -5,8 +5,8 @@ description: "How I became a hacker and more..."
 modified: 25-10-2018
 tags: [somdev sangwan, d3v, s0md3v, somdev]
 image:
-  path: /images/abstract-10.jpg
-  feature: abstract-10.jpg
+  path: /images/featured/journey.png
+  feature: journey.png
 ---
 
 
