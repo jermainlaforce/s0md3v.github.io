@@ -20,22 +20,33 @@ To save you from confusion, here’s a graphic stating difference between Rows a
 ![rows vs columns](/images/row-vs-column.jpg)
 
 Column = Type of Information
+
 Row = Information
+
 Well this means if you have a table of students of your class and you want to add their phone number in it. You will need to create a column for phone numbers which is a type of information but if you want to add recored of a new student, you would need to add a row to enter his/her information .
 
 So how to enter data into databases? How to edit data? How to add rows and columns.
 
 To manage databases, we take help of a declarative language called SQL (Structured Query Language). Here are some main commands of SQL:
 
-SELECT : Retrieve data from table(s)
-INSERT : Insert data into db table
-UPDATE : Update data in db table
-DELETE : Delete data from table
-CREATE : Create db object
-ALTER : Modify db object
-DROP : Delete db object
-GRANT : Assign privilege
-REVOKE : remove privilege
+**SELECT** : Retrieve data from table(s)
+
+**INSERT** : Insert data into db table
+
+**UPDATE** : Update data in db table
+
+**DELETE** : Delete data from table
+
+**CREATE** : Create db object
+
+**ALTER** : Modify db object
+
+**DROP** : Delete db object
+
+**GRANT** : Assign privilege
+
+**REVOKE** : remove privilege
+
 
 ### Selecting data from a table
 
