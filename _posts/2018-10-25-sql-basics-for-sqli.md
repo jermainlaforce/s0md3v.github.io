@@ -136,7 +136,7 @@ SELECT * FROM Employees Table WHERE NOT JobCode='ME1'
 The syntax for deleting data from a table is a follows:
 
 ```sql
-DELETE FROM<Table Name> WHERE<Search Condition>
+DELETE FROM TableName WHERE Condition
 ```
 
 WHERE Lets remove all the employees whose salary is more than 50,000
