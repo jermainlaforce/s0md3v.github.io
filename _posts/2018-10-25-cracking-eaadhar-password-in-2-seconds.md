@@ -17,6 +17,8 @@ Every eAadhar letter is locked with a password which is a fixed string of follow
 first_four_letters_of_name_in_uppercase + year_of_birth
 ```
 
+<!--more-->
+
 Basically there are 4 uppercase alphabets & 4 digits involved. So how many combinations can be generated from 4 uppercase alphabets and 4 digits? The answer is 2821109907456 and it would take 90 years to crack the password if we try 1000 combinations per second.
 
 Ain’t nobody got time for that!
