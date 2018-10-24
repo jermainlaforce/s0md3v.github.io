@@ -5,8 +5,8 @@ description: "Reducing cracking time from 92 to 2 seconds with maths."
 modified: 25-10-2018
 tags: [somdev sangwan, d3v, s0md3v, somdev]
 image:
-  path: /images/featured/journey.png
-  feature: /featured/journey.png
+  path: https://cdn-images-1.medium.com/max/800/1*PkZFVBnjIcnqKLawKjMSqg.png
+  feature: https://cdn-images-1.medium.com/max/800/1*PkZFVBnjIcnqKLawKjMSqg.png
 ---
 
 This article is already kind of lengthy so let’s get straight to the point.
