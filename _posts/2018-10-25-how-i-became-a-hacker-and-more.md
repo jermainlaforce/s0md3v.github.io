@@ -9,7 +9,6 @@ image:
   feature: journey.png
 ---
 
-
 I don’t want to make it any longer by adding some introductory part so lets get straight to the point. Okay wait, I just want to tell you something, I am a noob. Let’s go now!
 
 ## Getting into infosec
