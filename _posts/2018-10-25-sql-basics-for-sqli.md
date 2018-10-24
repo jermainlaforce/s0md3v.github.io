@@ -13,6 +13,8 @@ Hi there! This article is focused on whats important and I hope you have read my
 
 As we know, data is stored in databases . A server can have many databases. Databases contain tables and tables contain data in the form of rows and columns .
 
+<!--more-->
+
 To save you from confusion, here’s a graphic stating difference between Rows and Columns.
 
 ![rows vs columns](/images/row-vs-column.jpg)
