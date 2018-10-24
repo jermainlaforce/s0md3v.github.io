@@ -19,7 +19,7 @@ So I am 19 years old at present and I was living a pretty boring life till the a
 
 Then I got a computer, I “wasted” more than one year in playing games & social media which I kind of regret.
 
-But one day, I decided to have some fun and I searched on google “How to hack facebook account” and I followed one of them which was about Phishing.
+But one day, I decided to have some fun and I searched on google “How to hack facebook account” and I followed one of the results which was about Phishing.
 
 I created a phishing page after struggling for an hour and posted it on facebook with the caption, “This app lets you see who views your profile secretly” and about 5 people fell into that trap.
 
@@ -91,7 +91,7 @@ I am not a bug hunter but I have helped a lot of organizations to fix flaws in t
 
 I have written 100+ articles on this blog i.e.teamultimate.in.
 
-## Tips & Resource
+## Tips & Resources
 Here are some pro *coughs* noob tips from my side:
 
 - Note down & google unknown terms, recursively.
