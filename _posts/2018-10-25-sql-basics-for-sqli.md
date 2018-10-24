@@ -40,7 +40,7 @@ REVOKE : remove privilege
 To select data from a table, we use the SELECT statement whose syntax is as follows:
 
 ```sql
-SELECT<Column List> FROM<Table Name> WHERE<Search Condition>
+SELECT ColumnList FROM TableName WHERE Condition
 ```
 
 Lets take the following table into account:
@@ -64,7 +64,7 @@ SELECT * FROM Employees Table WHERE Salary > '40000'
 ### Inserting data into a table
 To insert new data into a table we use INSERT INTO statement whose syntax is as follows:
 ```sql
-INSERT INTO<Table Name> (<Column List>) VALUES (<Values>)
+INSERT INTO TableName (ColumnList) VALUES (Values)
 ```
 
 |IdNum|LName|FName|JobCode|Salary|
@@ -87,9 +87,9 @@ INSERT INTO Employees Table (LName, FName, JobCode, Salary) VALUES
 The INSERT INTO , statement is used to add new data but if we have to modify existing data, we use UPDATE command whose syntax is as follows:
 
 ```sql
-UPDATE<Table Name>
-SET<Column1> = <Value1>, <Column2> = <Value2>, …
-WHERE<Search Condition>
+UPDATE TableName
+SET Column1 = Value1, Column2 = Value2, …
+WHERE Condition
 ```
 
 |IdNum|LName|FName|JobCode|Salary|
@@ -146,10 +146,10 @@ DELETE FROM Employees Table WHERE Salary > '50000'
 To order data, we use the ORDER BY statement whose syntax is as follows:
 
 ```sql
-SELECT<Column List>
-FROM<Table Name>
-WHERE<Search Condition>
-ORDER BY<Column List>
+SELECT ColumnList
+FROM TableName
+WHERE Condition
+ORDER BY ColumnList
 ```
 
 |IdNum|LName|FName|JobCode|Salary|
@@ -170,7 +170,7 @@ SELECT * FROM Employees Table ORDER BY FName
 To combine multiple queries, we use the UNION statement whose syntax is following:
 
 ```
-SELECT<Column List> FROM <Table1> UNION SELECT <Column List> FROM <Table2>
+SELECT ColumnList FROM Table1 UNION SELECT Column List FROM Table2
 ```
 
 So if you want to execute multiple queries at once, you can simple add the UNION statement between them.
