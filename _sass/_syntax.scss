@@ -26,11 +26,11 @@ figure.highlight {
 
 .highlight table {
   font-size: 1em;
-  border: 0;
+  border: 1px;
 
   td {
     padding: 5px;
-    border: 0;
+    border: 1px;
 
     // line numbers
     &.gutter {
