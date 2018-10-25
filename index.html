@@ -28,4 +28,10 @@ image:
     </div><!-- /.entry-meta -->
   </header>
   <div class="entry-content">
-    
+    {{ post.excerpt }}
+    <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+  </div><!-- /.entry-content -->
+</article><!-- /.hentry -->
+{% endfor %}
+
+{% include pagination.html %}
