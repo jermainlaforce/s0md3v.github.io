@@ -14,12 +14,12 @@ owner:
   bio:            "19yo infosec badass. I mainly do web hacking, OSINT, GeoINT & programming."
   email:          s0md3v@email.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        https://twitter.com/s0md3v
-  facebook:       https://twitter.com/somdev.sangwan
-  github:         https://twitter.com/s0md3v
+  twitter:        s0md3v
+  facebook:       somdev.sangwan
+  github:         s0md3v
   stackexchange:  
-  linkedin:       https://www.linkedin.com/in/s0md3v
-  instagram:      https://instagram.com/s0md3v
+  linkedin:       s0md3v
+  instagram:      s0md3v
   flickr:         
   tumblr:         
   # google plus id, include the '+', eg +mmistakes
