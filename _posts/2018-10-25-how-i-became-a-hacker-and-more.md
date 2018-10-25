@@ -41,7 +41,7 @@ I met some other genuine people and we became a team, “Team Ultimate” which 
 
 Anyways, everything was going extremely well, I started to explore web apps hacking but then something happened which changed my life, in a good way.
 
-Well I was wandering around github and I found a XSS scanner written in python named XSSYA . I liked it, big ass banner & ability to retrieve PHPSESSID without even executing the payload . Yep, I know that’s the most autistic thing ever but I didn’t know much at that time so I thought its cool and I downloaded it.
+Well I was wandering around github and I found a XSS scanner written in python named [XSSYA](https://github.com/yehia-mamdouh/XSSYA) . I liked it, big ass banner & ability to retrieve PHPSESSID without even executing the payload . Yep, I know that’s the most autistic thing ever but I didn’t know much at that time so I thought its cool and I downloaded it.
 
 But when I ran it, it threw some errors and I fixed them without any programming knowledge, thanks to stackoverflow and common sense.
 
@@ -67,7 +67,7 @@ The best way to learn a programming language is to code in it. No book, youtube 
 - By modifying open source programs (without putting them on github this time :p ). This part helped me the most, I learned a loooooot. I learned about different libraries and the way developers solved a particular problem and what not.
 - By writing my own tools from the scratch
 
-### How I learned XSS?
+#### How I learned XSS?
 
 - Random Blogs (10%)
 - [brutelogic.com.br](https://brutelogic.com.br/) (15%)
@@ -77,20 +77,12 @@ The best way to learn a programming language is to code in it. No book, youtube 
 
 However my ego was somewhat satisfied but I didn’t stop after it, I kept learning new attacks and techniques. I learned new programming languages. I also started to explore OSINT, GeoINT & SE.
 
-Let’s stop it right there and talk about some of my noobie achievements.
-
-I have done stuff
+I have done stuff.
 Yep, that’s my only achievement so far. No hall of fame from beg *coughs* *under the breath: why do I say such controversial stuff* so I was saying I don’t have any hall of fames from bug bounties, no certification etc.
 
 Btw the stuff I have done includes around 30 programs I have contributed to the community. Thanks for loving them, you made #1 python Github developer in India and #78 worldwide.
 
-Six of them have been featured in Black Arch & others have been featured in some respected blogs & websites like hakin9 magazine, shodan, penetester academy, kitploit and 69 others :grinning:
-
-I do security research. A good example of my work is Entropy, a WAF core prototype which is driven by mathematical algorithms. I will turn it in a fully working WAF once I have enough free time.
-
-I am not a bug hunter but I have helped a lot of organizations to fix flaws in their websites without asking for a t-shirt :wink:
-
-I wrote 100+ articles on teamultimate.in (It's down, thanks to my "dear" team mates)
+6 of them have been featured in Black Arch & others have been featured in some respected blogs & websites like hakin9 magazine, shodan, penetester academy, kitploit and 69 others :grinning:
 
 ## Tips & Resources
 Here are some pro *coughs* noob tips from my side:
@@ -115,7 +107,7 @@ Instead of providing you a huge ass list of stuff I am leaving links which have 
 [https://github.com/s0md3v/AwesomeXSS](https://github.com/Hack-with-Github/Awesome-Hacking)
 [https://github.com/jekil/awesome-hacking](https://github.com/Hack-with-Github/Awesome-Hacking)
 [https://github.com/vitalysim/Awesome-Hacking-Resources](https://github.com/Hack-with-Github/Awesome-Hacking)
-[https://teamultimate.in/ultimate-books](https://github.com/Hack-with-Github/Awesome-Hacking)
+[https://github.com/v2-dev/awesome-social-engineering](https://github.com/v2-dev/awesome-social-engineering)
 
-That’s all for now
+That’s all for now.
 Keep making & breaking things!
