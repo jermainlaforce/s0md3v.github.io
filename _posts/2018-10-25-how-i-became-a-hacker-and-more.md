@@ -100,13 +100,13 @@ Here are some pro *coughs* noob tips from my side:
 ### Resources
 Instead of providing you a huge ass list of stuff I am leaving links which have huge ass lists of stuff :grinning:
 
-[https://github.com/Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking)
-[https://github.com/EdOverflow/bugbounty-cheatsheet](https://github.com/Hack-with-Github/Awesome-Hacking)
-[https://github.com/hardikvasa/awesome-programming](https://github.com/Hack-with-Github/Awesome-Hacking)
-[https://github.com/sindresorhus/awesome](https://github.com/Hack-with-Github/Awesome-Hacking)
-[https://github.com/s0md3v/AwesomeXSS](https://github.com/Hack-with-Github/Awesome-Hacking)
-[https://github.com/jekil/awesome-hacking](https://github.com/Hack-with-Github/Awesome-Hacking)
-[https://github.com/vitalysim/Awesome-Hacking-Resources](https://github.com/Hack-with-Github/Awesome-Hacking)
+[https://github.com/Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking)<br>
+[https://github.com/EdOverflow/bugbounty-cheatsheet](https://github.com/Hack-with-Github/Awesome-Hacking)<br>
+[https://github.com/hardikvasa/awesome-programming](https://github.com/Hack-with-Github/Awesome-Hacking)<br>
+[https://github.com/sindresorhus/awesome](https://github.com/Hack-with-Github/Awesome-Hacking)<br>
+[https://github.com/s0md3v/AwesomeXSS](https://github.com/Hack-with-Github/Awesome-Hacking)<br>
+[https://github.com/jekil/awesome-hacking](https://github.com/Hack-with-Github/Awesome-Hacking)<br>
+[https://github.com/vitalysim/Awesome-Hacking-Resources](https://github.com/Hack-with-Github/Awesome-Hacking)<br>
 [https://github.com/v2-dev/awesome-social-engineering](https://github.com/v2-dev/awesome-social-engineering)
 
 That’s all for now.
