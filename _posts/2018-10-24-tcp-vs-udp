@@ -15,6 +15,7 @@ Let us think of a situation where John (computer A) have a document (a file in c
 Suppose that the document is 20 pages long, and for some reason, the only available envelope can only fit 1 page. Now what to do? Well, he can put one page of the document in each envelope, and send the mail 20 times. Now, those mails can be delivered to Katie. And yeah when Katie receives it, there’s no guarantee that she will receive the pages of the documents in the order they were sent. So then we have to write  on the envelope that it contains page 1 of 20, page 2 of 20 and so on. Therefore, when Katie receives it, she can rearrange the pages in the correct order.
 
 How is it related to data transfer?
+<!--more-->
 When you have a file that you need to send, it is then broken into smaller parts, put an envelope on it and send it to your ISP (Internet Service Provider). Just like a regular mail, the envelope contains the address where the recipient should be as well as the sequence number. The envelope along with the data that is ready to be sent is called a Datagram.
 
 ## User Datagram Protocol (UDP)
