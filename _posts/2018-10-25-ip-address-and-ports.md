@@ -6,7 +6,7 @@ modified: 25-10-2018
 tags: [ports, ip address, networking]
 image:
   path: /images/featured/ip-ports.png
-  feature: featured/ip-ports.png
+  feature: /featured/ip-ports.png
 ---
 
 Internet is basically a network of billions of devices just like humans.
