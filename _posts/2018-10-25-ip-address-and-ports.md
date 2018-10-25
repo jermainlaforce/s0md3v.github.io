@@ -11,6 +11,7 @@ image:
 
 Internet is basically a network of billions of devices just like humans.
 So what do you do when you need connect to a remote human? You just call them right? or send them a letter?
+<!--more-->
 But for doing that you need their phone number or address. Similarly, to connect to a remote device, you need it's address which is called IP address.
 Each device which is a part of internet has an IP address which gives it a unique identiy.
 
