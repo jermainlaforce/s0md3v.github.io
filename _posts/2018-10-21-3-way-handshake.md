@@ -1,7 +1,7 @@
 ---
 layout: post
-title: How data travels over the internet?
-description: "Layman explanation of how data transfer works with UDP & TCP protocols."
+title: TCP Header & 3 Way Handshake
+description: "How a TCP connection is established?"
 modified: 21-10-2018
 tags: [tcp, networking]
 image:
