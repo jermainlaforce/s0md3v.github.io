@@ -11,6 +11,7 @@ image:
 
 Previously we learned [how data travels over Internet](https://somdev.me/tcp-vs-udp/) and today we will be talking about TCP Header.
 So how do data packets know where they have to go? What port they have to reach? How will the client know who sent the data? Blah! Blah! Blah!<br>
+<!--more-->
 This is where Headers come into play. A data packet has to carry some information which is necessary for the transmission and this information is what we call a Header.
 Today we are going to talk about TCP Header. The size of a TCP Header can range from 20 bytes to 60 bytes.<br>
 So what kind of information does the header contain?
