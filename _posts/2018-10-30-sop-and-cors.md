@@ -59,6 +59,8 @@ Step 4. `goodGirl.example.com` returns the response including the following HTTP
 Step 5. Browser checks if `goodBoy.example.com` is in the allowed domains list<br>
 Step 6. Yes it is in that list, the response now can be used by the JavaScript<br>
 
+## crossdomain.xml
+
 Unfortunately, JavaScript isn't the only technology which needs to make cross domain requests within a browser.
 There are some web clients such as adobe flash which need to do the same.
 
