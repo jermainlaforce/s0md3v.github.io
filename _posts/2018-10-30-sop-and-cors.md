@@ -1,6 +1,6 @@
 ---
 type: post
-title: CORS, SOP & crossdomain.xml explained for dummies
+title: CORS, SOP & crossdomain.xml For Dummies
 description: Cross Origin Resource Sharing & Same Origin Policy explained.
 modified: 27-10-2018
 tags: [cors, sop, basics, concept]
