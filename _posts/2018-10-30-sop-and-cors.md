@@ -9,8 +9,6 @@ image:
     feature: /featured/sop-cors-crossdomain.png
 ---
 
-## Same Origin Policy
-
 Things were really simple when webpages were static. Write some text, add images, add links and serve it to your users.<br>
 Then JavaScript came into existence and it made webpages dynamic.
 <!--more-->
@@ -18,7 +16,7 @@ Now webpages had animations, cool drop down menus and shit, now they could even 
 Yeah that's fun but then some smart ass guy thought what if we use JavaScript on bad.com to steal data from good.com where user is logged in.
 Now you know where that "Cross" in Cross Site Scripting came from.
 
-## Cross Origin Resource Sharing
+## Same Origin Policy
 
 Well then some other smart ass proposed that we should setup a restriction on these cross domain requests on the browser level.
 He said we will call it Same Origin Policy and it won't let JavaScript make request to a webpage which isn't hosted on the same domain.
@@ -38,6 +36,8 @@ Now lets see which pages can be accessed by `https://moth.example.com/moth.html`
 |https://sub.example.com/dir/moth.html|<span style="color: #e74c3c">Failure</span>|Different Host|
 |http://moth.example.com/dir/moth.html|<span style="color: #e74c3c">Failure</span>|Different Protocol|
 |https://mothexample.com:80/dir/moth.html|<span style="color: #e74c3c">Failure</span>|Different Port|
+
+## Cross Origin Resource Sharing
 
 Things were secure again but it raised a problem, a big one. This restriction was applied to stop bad guys for making cross domain requests but it was no longer possible to make requests from `goodBoy.example.com` to `goodGirl.example.com`.<br>
 To make things good again, they introduced something called Cross Origin Resource Sharing. The idea was simple, let developers choose whom they want to share their resources with. If the developers wants share data between `goodBoy.example.com` and `goodGirl.example.com`, let him do so.<br>
