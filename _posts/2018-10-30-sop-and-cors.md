@@ -62,7 +62,7 @@ Step 6. Yes it is in that list, the response now can be used by the JavaScript<b
 ## crossdomain.xml
 
 Unfortunately, JavaScript isn't the only technology which needs to make cross domain requests within a browser.
-There are some web clients such as adobe flash which need to do the same.
+There are some web clients such as adobe flash which need to do the same. So these clients posed a security issue too.
 
 A guy suggested to standardize another header with the name<br>
 `Allow-All-The-Web-Client-Requests-From-These-Domains:`<br>
