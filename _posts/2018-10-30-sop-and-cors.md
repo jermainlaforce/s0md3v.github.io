@@ -66,7 +66,7 @@ There are some web clients such as adobe flash which need to do the same. So the
 
 A guy suggested to standardize another header with the name<br>
 `Allow-All-The-Web-Client-Requests-From-These-Domains:`<br>
-He was beaten up by asian because the header name was too long ;)
+He was beaten up by asians because the header name was too long ;)
 
 Well, instead of using a seperate header this time, they decide to use a file named `crossdomain.xml` which should be located in root of the host just like `robots.txt`
 
