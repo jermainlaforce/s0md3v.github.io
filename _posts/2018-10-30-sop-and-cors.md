@@ -54,10 +54,10 @@ Step 2. The website tries to load data from `goodGirl.example.com`<br>
 Step 3. Your browser makes a request to `goodGirl.example.com`<br>
 Step 4. `goodGirl.example.com` returns the response including the following HTTP header:<br>
 
-`Access-Control-Allow-Origin: goodBoy.example.com, money.example.com, bigDick.example.com`
+`Access-Control-Allow-Origin: goodBoy.example.com
 
-Step 5. Browser checks if `goodBoy.example.com` is in the allowed domains list<br>
-Step 6. Yes it is in that list, the response now can be used by the JavaScript<br>
+Step 5. Browser checks if `goodBoy.example.com` is allowed<br>
+Step 6. Yes it is, the response now can be used by the JavaScript<br>
 
 ## crossdomain.xml
 
