@@ -5,7 +5,7 @@ var url = 'https://deals.pixlr.com/user';
 
 function load(url, callback) {
   var xhr = new XMLHttpRequest();
-
+  xhr.withCredentials = true;
   xhr.onreadystatechange = function() {
     if (xhr.readyState === 4) {
       alert(xhr.response);
