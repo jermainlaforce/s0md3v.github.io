@@ -1,0 +1,20 @@
+<html>
+<body>
+<script>
+var url = 'https://deals.pixlr.com/user';
+
+function load(url, callback) {
+  var xhr = new XMLHttpRequest();
+
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState === 4) {
+      alert(xhr.response);
+    }
+  }
+
+  xhr.open('GET', url, true);
+  xhr.send('');
+}
+</script>
+</body>
+</html>
