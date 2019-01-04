@@ -1,0 +1,29 @@
+---
+layout: post
+title: An open letter to InfoSec beginners
+description: "An open letter to InfoSec beginners"
+modified: 04-01-2019
+tags: [community]
+image:
+  path: /images/featured/ip-ports.jpg
+  feature: /featured/ip-ports.jpg
+---
+
+Hacking is one of the most creative and mentally intensive tasks and some people (including me) even call it an art.
+But as it turns out, money ruined this art. When hacking didn't have so many oppurtunities, only the people who
+truly loved computers used to do it. But everyone needs money right? There's nothing wrong in that but now infosec is attracting trash.
+A guy in my facebook friends list is a core member of ***** OWASP chapter but he can't install a fucking python library. He doesn't know what a same origin policy is but he is teaching people how to hack. C R I N G E
+How did he got there? He has a certification, CEH. Yes, that's all you need to be hacker in India.
+I have a lot of bug hunters on my LinkedIn and a good percent of them keep thanking "****** ******" when they find a bug. It was cool and all until a good friend of mine told me about this whole scandal.
+He basically sells already reported bugs to people so they can get HOF/swag as a consolation for the duplicate.
+I have screenshots but I am not posting them here because I am trying to convey something more important.
+
+If you are just a beginner in InfoSec, make a choice.
+
+Are you doing it for money and fame? If yes, it's okay. I won't tell you to choose a career that you will love because that won't work. You are going to spend rest of your life spending doing scans with automated tools and making ₹40,000 for a pentest.
+Sounds good right? Thanks, article ends for you here.
+
+If you really love this shit or just trying it out to see if you do, make sure you choose the right path.
+The right path????
+Those hacking courses are shit man. You don't really need that certification unless you need to surpass people with same skills as you in interviews.
+No, that one book will not teach you how to break into things like a ninja.
