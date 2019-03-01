@@ -1,0 +1,77 @@
+<html>
+<body>
+<script>
+payload = getPayload(window.location.href)
+signatures = ['<script>alert()<\/script>', '<svg/onload=confirm()>', '<img src=x/onerror=alert()']
+function fuzz(a){
+	var tmp;
+	var b = payload;
+	var threshold = 20;
+	if (a.length === 0) { return b.length; }
+	if (b.length === 0) { return a.length; }
+	if (a.length > b.length) { tmp = a; a = b; b = tmp; }
+
+	var i, j, res, alen = a.length, blen = b.length, row = Array(alen);
+	for (i = 0; i <= alen; i++) { row[i] = i; }
+
+	for (i = 1; i <= blen; i++) {
+		res = i;
+		for (j = 1; j <= alen; j++) {
+			tmp = row[j - 1];
+			row[j - 1] = res;
+			res = b[i - 1] === a[j - 1] ? tmp : Math.min(tmp + 1, Math.min(res + 1, row[j] + 1));
+		}
+	}
+	if (res > threshold){
+		return false;
+	}
+	else{
+		return true;
+	}
+}
+function getPayload(url){
+	return url.split('q=')[1]
+}
+function matchSignatures(payload, signatures){
+	return signatures.some(fuzz)
+}
+function entropy(s){
+  var frequencies, entropy;
+  frequencies = s.split('')
+                 .reduce(function(carry, current){
+                    carry[current] = (carry[current] || 0) + 1;
+                    return carry;
+                 }, new Object(null));
+
+  entropy = Object.keys(frequencies)
+                  .reduce(function(carry, current){
+                     var p = frequencies[current] / s.length;
+                     carry = carry - (Math.log(p) / Math.log(2) * p);
+                     return carry; 
+                  },0);
+
+  return entropy;
+}
+if (matchSignatures(payload, signatures)){
+	result = '<h1>Blocked</h1>\n<b>Reason</b>: Matched with malicious signatures'
+	}
+else{
+	shannon = entropy(payload)
+	result = payload
+	if (shannon > 4){
+		result = '<h1>Blocked</h1>\n<b>Reason</b>: High shannon entropy'
+	}
+}
+function filtered(payload){
+	index = Math.floor(payload.length/3) + Math.log(payload);
+	return payload.slice(0, index) + payload.slice(index + 1);
+}
+if (result == payload){
+	document.write(filtered(decodeURIComponent(result)).replace(">", "<"));
+}
+else{
+	document.write(result)
+}
+</script>
+</body>
+</html>
