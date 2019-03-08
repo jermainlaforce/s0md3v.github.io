@@ -10,6 +10,7 @@ image:
 ---
 
 **TL;DR** Cybrary leaks usernames from multiple endpoints, has no restrictions on password strength, has xml-rpc enabled which makes it a good target for password spray attacks.
+<!--more-->
 I told Cybrary about this about 8 months ago and they said it's fine, I understand why they think it's not an issue. People don't care much about usernames because one still needs a password to access accounts. They are nice people tho, they offered me some in-site benefits for my efforts which I denied because courses suck ass, I am more of a white paper guy.
 
 **Honest TL;DR** A 19 year old kid making a big deal out of wordpress misconfigurations and password policy of a famous website.
