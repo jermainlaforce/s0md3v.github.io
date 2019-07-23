@@ -1,0 +1,35 @@
+<html>
+<body>
+	<textarea id="input" onkeydown="entropy(document.getElementById('input').value);" rows="10" cols="80"></textarea>
+	<script>
+		function calculate(s){
+		  var frequencies, entropy;
+		  frequencies = s.split('')
+		                 .reduce(function(carry, current){
+		                    carry[current] = (carry[current] || 0) + 1;
+		                    return carry;
+		                 }, new Object(null));
+		  entropy = Object.keys(frequencies)
+		                  .reduce(function(carry, current){
+		                     var p = frequencies[current] / s.length;
+		                     carry = carry - (Math.log(p) / Math.log(2) * p);
+		                     return carry; 
+		                  },0);
+		  return entropy;
+		}
+		function entropy(s){
+			var e = calculate(s);
+			document.getElementById('count').innerHTML = e;
+			document.getElementById('scale').innerHTML = '#'.repeat(e * 10);
+		}
+	</script>
+<br>
+<b>Entropy:</b> <span id="count"></span>
+<br><br>
+<span id="scale"></span>
+<pre>|                                                               |__________________|                                                                     |</pre>
+<pre>
+Low                                                                 English Text                                                                 Encryption
+</pre>
+</body>
+</html>
